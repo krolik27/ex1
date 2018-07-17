@@ -1,0 +1,154 @@
+@import "variables";
+.header-bottom_wrapper {
+  position: relative;
+  z-index: 0;
+}
+
+.header_contact {
+  width: $width;
+  position: relative;
+  z-index: 0;
+  &-top_logo,
+  &-top_social {
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+.header_contact-top_logo {
+  margin-left: $width/6.41;
+  margin-top: 24px;
+  background-color: rgba($color3, .8);
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+
+.header_contact-top_social {
+  margin-left: $width/1.33;
+  margin-top: 40px;
+  background-color: rgba($color3, .8);
+  padding: 10px;
+}
+
+.header iframe {
+  width: 100%;
+  height: auto;
+  border: 0 none;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.main_contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 61px;
+  height: $width/2.3077;
+  margin-bottom: 22px;
+}
+
+.form_contact {
+  margin-left: 41px;
+  width: $width/4.286;
+  border: 0 none;
+  padding: 0;
+  height: auto;
+  h3 {
+    margin-top: 31px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: $color6;
+    font-size: 12px;
+    @include font(400, 20px, left);
+    text-transform: uppercase;
+  }
+}
+
+.put {
+  width: 100%;
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  color: #aaaaaa;
+  @include font(400, 20px, left);
+  font-size: 12px;
+  &_txt {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+}
+
+.addr {
+  width: 292px;
+  margin-top: 31px;
+  margin-left: 23px;
+  padding-left: 32px;
+  height: 450px;
+  font-family: 'Roboto', sans-serif;
+  @include font(400, 14px, left);
+  color: $color6;
+  border-left: 1px solid rgba(167, 167, 167, 0.8);
+  h2 {
+    color: $color11;
+    font-size: 18px;
+    font-weight: 900;
+    padding-bottom: 17px;
+  }
+  a {
+    color: $color6;
+  }
+}
+
+
+.addr_txt {
+  width: 179px;
+  color: #777777;
+  font-size: 12px;
+  margin-bottom: 23px;
+  p {
+    padding-bottom: 8px;
+  }
+}
+
+
+.addr_phone {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20.8px;
+  padding-bottom: 19px;
+}
+
+.addr_mail {
+  font-size: 16px;
+  line-height: 20.8px;
+  text-decoration: underline;
+}
+
+.addr_txt2 {
+  margin-top: 30px;
+}
+
+.sidebar-advert_window_contact {
+  margin-top: 51px;
+}
+
+.contact_brand {
+  margin-top: -147px;
+  width: $width/1.724;
+  height: auto;
+  background-color: #ffffff;
+  padding: 57px 83px;
+  float: right;
+  box-sizing: border-box;
+}
+
+.contact_brand-img {
+  width: $width/2.21276;
+  height: 26;
+}
+
+.contact_social-btn {
+  margin-top: 123px;
+}

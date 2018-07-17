@@ -1,0 +1,205 @@
+@import "variables";
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0 auto;
+}
+
+.container {
+  width: $width;
+  height: auto;
+  margin: 0 auto;
+  background-color: $color1;
+}
+
+.header {
+  background: url(../img/header_fon.jpg) no-repeat;
+  background-color: blue;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: -20px;
+  padding: 24px 165px 64px 229px;
+  box-sizing: border-box;
+}
+
+.header-top_wrapper {
+  display: flex;
+  width: $width/1.674;
+  justify-content: space-between;
+  margin-left: 69px;
+  margin-bottom: 108px;
+}
+
+.header-top_logo {
+  display: block;
+  width: 125px;
+  height: 111px;
+  background-color: rgba($color3, .8);
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  &:hover {
+    background-color: rgba($color5, .7);
+}
+}
+
+.header-top_social {
+  width: 180px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.social_head {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.vk {
+  background: $background1 30px 0;
+}
+
+a.vk:hover {
+  background: $background1 0 0;
+}
+
+.fb {
+  background: $background1 30px -30px;
+}
+
+a.fb:hover {
+  background: $background1 0 -30px;
+}
+
+.twt {
+  background: $background1 30px -60px;
+}
+
+a.twt:hover {
+  background: $background1 0 -60px;
+}
+
+.ok {
+  background: $background1 30px -90px;
+}
+
+a.ok:hover {
+  background: $background1 0 -90px;
+}
+
+.mymail {
+  background: $background1 30px -120px;
+}
+
+a.mymail:hover {
+  background: $background1 0 -120px;
+}
+
+.linkedin {
+  background: $background1 30px -150px;
+}
+
+a.linkedin:hover {
+  background: $background1 0 -150px;
+}
+
+.google_plus {
+  background: $background1 30px -180px;
+}
+
+a.google_plus:hover {
+  background: $background1 0 -180px;
+}
+
+.insta {
+  background: $background1 30px -210px;
+}
+a.insta:hover {
+  background: $background1 0 -210px;
+}
+
+.header-bottom_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.yellow-box {
+  background-color: $color5;
+  width: 270px;
+  padding: 82px 30px 82px 25px;
+  margin-top: 93px;
+  box-sizing: border-box;
+  &_title,
+  &_txt {
+    margin: 0;
+    color: $color6;
+    font-family: 'Raleway', sans-serif;
+    @include font(700, 16px, left);
+}
+  &_title {
+    font-size: 30px;
+    margin-bottom: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+  &_txt {
+    font-size: 18px;
+    line-height: 14px;
+    font-style: italic;
+}
+}
+
+.header-bottom_txt {
+  color: #fff51f;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  width: 313px;
+}
+
+.header-bottom_title {
+  @include font(700, 34px, center);
+  font-size: 48px;
+  text-transform: uppercase;
+  background-color: rgba($color7, .7);
+}
+
+.header-bottom_message {
+  font-size: 18px;
+  @include font(400, 24px, left);
+  background-color: rgba($color7, .7);
+  margin-bottom: 62px;
+}
+
+.header-bottom_btn {
+  text-decoration: none;
+  color: #000000;
+  @include font(800, 14px, left);
+  text-transform: uppercase;
+  width: 124px;
+  padding: 15px;
+  background-color: $color5;
+  &:hover {
+    box-shadow: 5px 5px 20px 6px rgba(41, 46, 41, 0.88);
+    -webkit-box-shadow: 5px 5px 20px 6px rgba(41, 46, 41, 0.88);
+    -moz-box-shadow: 5px 5px 20px 6px rgba(41, 46, 41, 0.88);
+}
+  &:active {
+  background-color: $color8;
+}
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-left: 165px;
+}
+.sidebar {
+  width: $width/5.55;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}

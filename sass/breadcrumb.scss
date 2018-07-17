@@ -1,0 +1,37 @@
+@import "variables";
+#breadcrumb {
+  margin-top: 10px;
+  margin-left: 320px;
+  height: 10px;
+  width: 450px;
+  text-transform: none;
+}
+
+.crumbs li {
+  display: inline-flex;
+  justify-content: flex-start;
+  & a {
+  position: relative;
+  &:hover {
+    color: #333;
+    cursor: pointer;
+    }
+  }
+}
+.crumbs li a, .crumbs li a:link, .crumbs li a:visited {
+    font-family: 'Roboto', sans-serif;
+    color: $color9;
+    @include font(400, 20px, center);
+    font-size: 12px;
+    padding-left: 4px;
+    position: relative;
+    text-decoration: none;
+}
+
+.crumbs_last {
+  background-color: $color10;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  color: $color9;
+  font-weight: 400;
+}

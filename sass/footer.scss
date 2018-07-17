@@ -1,0 +1,278 @@
+@import "variables";
+.brand {
+  background-color: $color4;
+  text-align: center;
+  padding: 70px 14px 70px 14px;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+
+.brand-img {
+  height: 26px;
+  width: $width/1.3134;
+}
+
+.instagram {
+  width: $width/1.282;
+  margin-left: 165px;
+  margin-right: 165px;
+  background-color: #e0dede;
+}
+
+.insta_footer_icon {
+  text-decoration: none;
+  display: flex;
+  @include padding(54px, 449px, 30px);
+  & img {
+    margin-right: 2px;
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.insta_footer_icon p {
+  font-family: 'Roboto', sans-serif;
+  color: $color6;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 22px;
+}
+
+p#foodhouse {
+  margin-left: 2px;
+  padding-top: 4px;
+  font-size: 18px;
+}
+
+.instagram_social_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.instagram_footer__photo {
+  margin: 0;
+  width: 175px;
+  height: 175px;
+  border: 7px solid $color4;
+  object-fit: cover;
+}
+
+.instagram_footer__photo:hover {
+  transform: rotate(10deg);
+}
+
+.social-btn {
+  background-color: pink;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: $width/1.282;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+.social-btn img:hover{
+  transform: translatex(30px);
+  transition: all 1s ease;
+}
+
+.bottom_btn {
+  width: 390px;
+  box-sizing: border-box;
+}
+
+.f_icon {
+  background-color: #3b5997;
+  @include padding(44px, 180px, 44px);
+}
+
+.tw_icon {
+  background-color: #3fccfd;
+  @include padding(49px, 163px, 49px);
+}
+
+.pin_icon {
+  background-color: #cb2027;
+  @include padding(43px, 163px, 43px);
+}
+
+.footer {
+  color: $color4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #373737;
+  word-break: break-all;
+  padding-top: 77px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  @include font(400, 18px, left);
+  a {
+    text-decoration: none;
+    color: $color4;
+  }
+  li {
+    list-style: none;
+  }
+}
+
+.footer-menu_title {
+  margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer_category {
+  margin-left: 185px;
+  margin-right: 100px;
+  width: 95px;
+}
+
+.footer_account {
+  width: 140px;
+}
+
+.footer_support {
+  width: 117px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.footer_newsletter {
+  width: 261px;
+}
+
+form {
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+form .send,
+.main_contact .send {
+  background-color: #000000;
+  width: 70px;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: $color4;
+  font-size: 12px;
+  @include font(400, 21px, center);
+}
+
+form .put {
+  background-color: #fff51f;
+  width: 180px;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: $color6;
+  font-size: 12px;
+  @include font(700, 21px, center);
+  text-transform: uppercase;
+}
+
+.footer_aboutus {
+  width: 230px;
+  margin-right: 170px;
+  margin-left: 50px;
+  a {
+  font-size: 14px;
+  }
+}
+
+#mail_footer {
+  color: #faef03;
+}
+
+.footer_payment_icons {
+  width: 267px;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 59px;
+}
+
+.footer_payment {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  vertical-align: middle;
+  margin-right: 2px;
+  border: 1px solid rgba(42, 154, 191, .6);
+}
+
+.amexpress {
+  background: url('../img/payments_icons.png') 0 0;
+  background-size: cover;
+}
+
+.mastercard {
+  background: url('../img/payments_icons.png') 160px 0;
+  background-size: cover;
+}
+
+.maestro {
+  background: url('../img/payments_icons.png') 130px 0;
+  background-size: cover;
+}
+
+.paypal {
+  background: url('../img/payments_icons.png') 95px 0;
+  background-size: cover;
+}
+
+.discover {
+  background: url('../img/payments_icons.png') 63px 0;
+  background-size: cover;
+}
+
+.visa {
+  background: url('../img/payments_icons.png') 33px 0;
+  background-size: cover;
+}
+
+.footer_small {
+  background-color: $color6;
+  @include padding(21px, 0, 13px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 186px;
+}
+
+.footer_copyright {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 171px;
+  p {
+  font-family: 'Roboto', sans-serif;
+  color: #dad9d9;
+  font-size: 12px;
+  @include font(400, 21px, left);
+  }
+}
+
+p#foodhouse2 {
+  text-transform: uppercase;
+}
+
+.footer_bottom_social {
+  width: 300px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.bottom_social {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 2px;
+}

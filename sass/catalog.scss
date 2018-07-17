@@ -1,0 +1,30 @@
+@import "variables";
+
+.header_catalog_page {
+  background: url(../img/header_fon3.jpg) left bottom no-repeat;
+  background-size: cover;
+  width: 100%;
+  box-sizing: border-box;
+  height: $width/4.2857;
+}
+
+.main_catalog_page {
+  margin-top: 148px;
+  margin-bottom: 131px;
+}
+
+.discription_catalog_page {
+  text-transform: uppercase;
+}
+
+.sidebar-menu {
+  background-color: $color5;
+}
+
+.header_contact-top_logo:hover {
+  background-color: rgba($color4,0.5);
+}
+
+.catalog_old_price {
+  text-decoration: line-through;
+}

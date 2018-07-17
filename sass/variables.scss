@@ -1,0 +1,22 @@
+$width: 1500px;
+$color1: #f8f8f8;
+$color3: #c1c1c1; 
+$color4: #ffffff;
+$color5: #fff51f;
+$color6: #333333;
+$color7: #c0c0c0;
+$color8: #26d2fc;
+$color9: #989898;
+$color10: #faef03;
+$color11: #353535;
+$background1: url('../img/social.png');
+@mixin font($weight, $line-height, $align){
+  font-weight: $weight;
+  line-height: $line-height;
+  text-align: $align;
+}
+@mixin padding($top, $left, $bottom){
+  padding-top: $top;
+  padding-left: $left;
+  padding-bottom: $bottom;
+}
